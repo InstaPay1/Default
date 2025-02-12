@@ -30,7 +30,7 @@ function initiatePayment() {
 	$.ajax({
            dataType: 'json',
             type: "POST",
-            url: 'https://pay.jigspay.com/newpayment.php',
+            url: 'BaseURL',
 			headers: {
     			"api_key": <<api_key>>
 				"signature" : signature
