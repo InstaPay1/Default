@@ -36,7 +36,7 @@ def initiate_payment
       "api_key" => api_key
     }
     
-    uri = URI.parse("https://pay.jigspay.com/newpayment.php")
+    uri = URI.parse("BaseURL")
  
     http = Net::HTTP.new(uri.host, uri.port)
 
