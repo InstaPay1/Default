@@ -30,7 +30,7 @@ function initiatePayment() {
 	$.ajax({
            dataType: 'json',
             type: "POST",
-            url: 'BaseURL',
+            url: 'BaseURL/newpayment.php',
 			headers: {
     			"api_key": <<api_key>>
 				"signature" : signature
