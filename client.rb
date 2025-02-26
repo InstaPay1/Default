@@ -36,7 +36,7 @@ def initiate_payment
       "api_key" => api_key
     }
     
-    uri = URI.parse("BaseURL")
+    uri = URI.parse("BaseURL/newpayment.php")
  
     http = Net::HTTP.new(uri.host, uri.port)
 
